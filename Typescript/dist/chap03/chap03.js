@@ -1,4 +1,6 @@
-import { createInterface } from "readline";
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const readline_1 = require("readline");
 const propName = "foo";
 const obj = {
     [propName]: 123,
@@ -11,7 +13,7 @@ console.log(obj["foo"]);
 console.log(obj["foo bar"]);
 console.log(obj["1"]);
 console.log(obj["2.05"]);
-const rl = createInterface({
+const rl = (0, readline_1.createInterface)({
     input: process.stdin,
     output: process.stdout
 });

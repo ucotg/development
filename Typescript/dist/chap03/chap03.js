@@ -7,7 +7,7 @@ const obj = {
     "foo bar": -500,
     "↑↓↑↓": "",
     1: "one",
-    2.05: "two point five"
+    2.05: "two point five",
 };
 console.log(obj["foo"]);
 console.log(obj["foo bar"]);
@@ -15,11 +15,11 @@ console.log(obj["1"]);
 console.log(obj["2.05"]);
 const rl = (0, readline_1.createInterface)({
     input: process.stdin,
-    output: process.stdout
+    output: process.stdout,
 });
 const messages = {
     good: "0以上の数値が入力されました!",
-    bad: "負の数値を入力しないでください!"
+    bad: "負の数値を入力しないでください!",
 };
 rl.question("数値を入力してください:", (line) => {
     const num = Number(line);

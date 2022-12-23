@@ -16,7 +16,7 @@ for (const line of lines) {
     users.push({
         name,
         age,
-        premiumUser
+        premiumUser,
     });
 }
 for (const user of users) {

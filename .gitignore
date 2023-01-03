@@ -5,3 +5,5 @@
 .DS_Store
 
 Typescript/node_modules/
+
+.vscode/

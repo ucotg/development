@@ -5,22 +5,27 @@ int n, x, a[100009];
 
 int search(int x)
 {
-    int l = 0, r = n - 1;
-    while (l <= r)
+    // int l = 0, r = n - 1;
+    // while (l <= r)
+    // {
+    //     int m = (l + r) / 2;
+    //     if (x == a[m])
+    //     {
+    //         return m;
+    //     }
+    //     if (x < a[m])
+    //     {
+    //         r--;
+    //     }
+    //     if (x > a[m])
+    //     {
+    //         l++;
+    //     }
+    // }
+    int pos = lower_bound(a + 1, a + n + 1, x) - a;
+    if (pos <= n && a[pos] == x)
     {
-        int m = (l + r) / 2;
-        if (x == a[m])
-        {
-            return m;
-        }
-        if (x < a[m])
-        {
-            r--;
-        }
-        if (x > a[m])
-        {
-            l++;
-        }
+        return pos;
     }
 }
 

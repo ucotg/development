@@ -11,7 +11,7 @@ ll swapdigits(ll adigit[], ll bdigit[])
     {
         if (adigit[i] < bdigit[i])
         {
-            int tmp = adigit[i];
+            ll tmp = adigit[i];
             adigit[i] = bdigit[i];
             bdigit[i] = tmp;
         }
@@ -23,10 +23,8 @@ ll swapdigits(ll adigit[], ll bdigit[])
         returna += (adigit[i] * (ll)pow(10, i)) % 998244353;
         returnb += (bdigit[i] * (ll)pow(10, i)) % 998244353;
     }
-    returna %= 998244353;
-    returnb %= 998244353;
 
-    return (returna * returnb) % 998244353;
+    return returna * returnb;
 }
 
 int main()

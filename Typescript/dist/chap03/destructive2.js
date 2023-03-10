@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const obj1 = {};
 const obj2 = { foo: -1234 };
 const { foo = 500 } = obj1; // 分割代入のデフォルト値
@@ -34,3 +32,4 @@ console.log(first);
 console.log(second);
 console.log(third);
 console.log(rest);
+export {};

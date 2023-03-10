@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const toLowerOrUpper = (str, upper) => {
     if (upper) {
         return str.toUpperCase();
@@ -24,3 +22,4 @@ console.log(toLowerOrUpper2("Hello", undefined)); //この場合でもundefined�
 function foo() { }
 const obj = foo;
 console.log(foo.name);
+export {};

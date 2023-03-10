@@ -1,5 +1,10 @@
 import { readFileSync } from "fs";
-const data = readFileSync("./uhyo.txt", { encoding: "utf8" });
+import path from "path";
+import { fileURLToPath } from "url";
+const filePath = fileURLToPath(import.meta.url);
+const fileDir = path.dirname(filePath);
+const dataFile = path.join(fileDir, "../../../uhyo.txt");
+const data = readFileSync(dataFile, { encoding: "utf8" });
 let count = 0;
 let currentIndex = 0;
 while (true) {

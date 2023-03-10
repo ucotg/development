@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class User {
     static getAdminUser() {
         return new User(User.adminName, 26);
@@ -18,4 +16,5 @@ const admin = User.getAdminUser();
 console.log(admin.age);
 console.log(admin.name);
 const uhyo = new User("uhyo", 26);
+export {};
 // console.log(uhyo.adminName); エラー

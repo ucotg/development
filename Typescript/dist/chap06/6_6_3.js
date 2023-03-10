@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function doNothing(val) {
     console.log(val);
 }
@@ -24,3 +22,4 @@ function useUnknown(val) {
 }
 useUnknown("foobar");
 useUnknown(null);
+export {};

@@ -1,6 +1,4 @@
-"use strict";
 var _User2_age, _SuperUser2_age;
-Object.defineProperty(exports, "__esModule", { value: true });
 class User1 {
     constructor() {
         this.age = 0;
@@ -22,3 +20,4 @@ class SuperUser2 extends User2 {
     }
 }
 _SuperUser2_age = new WeakMap();
+export {};

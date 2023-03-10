@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 try {
     console.log("tryブロック");
 }
@@ -39,3 +37,4 @@ function sum(max) {
         console.log("sumから脱出します");
     }
 }
+export {};

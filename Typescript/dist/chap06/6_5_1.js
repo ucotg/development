@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function getFirstFiveLetters(strOrNum) {
     const str = strOrNum;
     return str.slice(0, 5);
@@ -11,3 +9,4 @@ function getNamesIfAllHuman(users) {
     }
     return undefined;
 }
+export {};

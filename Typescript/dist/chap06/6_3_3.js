@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const tama = {
     tag: "animal",
     species: "Felis silvestris catus",
@@ -22,3 +20,4 @@ function getUserName(user) {
 }
 console.log(getUserName(tama));
 console.log(getUserName(uhyo));
+export {};

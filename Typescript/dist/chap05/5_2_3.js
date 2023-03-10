@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class User {
     constructor() {
         this.name = "";
@@ -34,3 +32,4 @@ const uhyo2 = new User2("uhyo", 26);
 console.log(getPrice(customer1));
 console.log(getPrice(customer2));
 console.log(getPrice(uhyo2));
+export {};

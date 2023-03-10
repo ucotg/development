@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function getFizzBuzzString(i) {
     if (i % 15 === 0) {
         return "FizzBuzz";
@@ -25,3 +23,4 @@ for (const i of sequence(1, 100)) {
     const message = getFizzBuzzString(i);
     console.log(message);
 }
+export {};

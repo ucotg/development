@@ -1,7 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const readline_1 = require("readline");
-const rl = (0, readline_1.createInterface)({
+import { createInterface } from "readline";
+const rl = createInterface({
     input: process.stdin,
     output: process.stdout
 });

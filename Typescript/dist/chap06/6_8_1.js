@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function showOptionValue(value) {
     if (value.tag === "some") {
         console.log(value.value);
@@ -51,3 +49,4 @@ function doubleOption(obj) {
 }
 console.log(doubleOption(four));
 console.log(doubleOption(nothing));
+export {};

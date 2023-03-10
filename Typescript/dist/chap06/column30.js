@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function isPropertyAccessible(value) {
     return value != null;
 }
@@ -10,3 +8,4 @@ function isHuman(value) {
         typeof value.name === "string" &&
         typeof value.age === "number");
 }
+export {};

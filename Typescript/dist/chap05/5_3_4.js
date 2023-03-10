@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class User {
     constructor(name, age) {
         this.name = name;
@@ -38,3 +36,4 @@ const uhyo = new PremiumUser2("uhyo", 26);
 console.log(uhyo.isAdult());
 uhyo.setAge(15);
 console.log(uhyo.isAdult());
+export {};

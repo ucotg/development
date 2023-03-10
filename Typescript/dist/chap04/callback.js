@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // const getName = (u: User): string => {
 //   console.log("u is", u);
 //   return u.name;
@@ -14,3 +12,4 @@ const allAdult = users.every((u) => u.age >= 20);
 const seniorExist = users.some((u) => u.age >= 60);
 const john = users.find((u) => u.name.startsWith("John"));
 console.log(names, adultUsers, allAdult, seniorExist, john);
+export {};

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function useToString1(value) {
     console.log(`value is ${value.toString()}`);
 }
@@ -33,3 +31,4 @@ function thrower() {
 const result = thrower();
 const str = result;
 console.log(str);
+export {};

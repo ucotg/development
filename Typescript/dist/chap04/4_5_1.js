@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const repeatLength = 5;
 const repeat = function (element) {
     const repeatLength = 3;
@@ -11,3 +9,4 @@ const repeat = function (element) {
 };
 console.log(repeat("a"));
 console.log(repeatLength); // 3
+export {};

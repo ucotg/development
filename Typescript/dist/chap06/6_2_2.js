@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function getHelloStr() {
     const rand = Math.random();
     if (rand < 0.3) {
@@ -23,3 +21,4 @@ function fromKey(key) {
     return key.slice(5);
 }
 const user = fromKey("user:uhyo");
+export {};

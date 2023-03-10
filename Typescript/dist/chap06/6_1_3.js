@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const tama = {
     species: "Felis silvestris catus",
     age: 3,
@@ -9,6 +7,7 @@ const uhyo = {
     age: 26,
     name: "uhyo",
 };
+export {};
 // const cat1: AnimalAndString = "cat";
 // const cat2: AnimalAndString = {
 //   species: "Felis silvestris catus",

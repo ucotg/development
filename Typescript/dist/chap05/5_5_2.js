@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 try {
     console.log("エラーを発生させます");
     throwError();
@@ -14,3 +12,4 @@ function throwError() {
     const error = new Error("エラーが発生しました!!!!!");
     throw error;
 }
+export {};

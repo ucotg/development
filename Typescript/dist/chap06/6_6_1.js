@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function doWhatever(obj) {
     console.log(obj.user.name);
     obj();
@@ -22,3 +20,4 @@ function doWhatever2(obj) {
     const str = obj;
     useNumber(obj);
 }
+export {};

@@ -1,6 +1,4 @@
-"use strict";
 var _a;
-Object.defineProperty(exports, "__esModule", { value: true });
 class A {
     constructor() {
         this.foo = 123;
@@ -21,3 +19,4 @@ B.bar = _a.foo * 2;
 (() => {
     console.log("bar is", _a.bar);
 })();
+export {};

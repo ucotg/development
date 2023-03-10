@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // 普通に書く
 // const calcBMI = ({ height, weight }: Human): number => {
 //   return weight / height ** 2;
@@ -32,4 +30,5 @@ const sum = (base, ...args) => {
 console.log(sum(1, 10, 100));
 console.log(sum(123, 456));
 console.log(sum(0));
+export {};
 // console.log(sum()); エラー

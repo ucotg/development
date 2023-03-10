@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class User {
     constructor() {
         this.name = "";
@@ -18,3 +16,4 @@ console.log(uhyo.isAdult());
 uhyo.setAge(26);
 console.log(uhyo.isAdult());
 console.log(baby.isAdult());
+export {};

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function isStringOrNumber(value) {
     // 返り値をbooleanにするとエラーになる(絞り込みが行われないため)
     return typeof value === "string" || typeof value === "number";
@@ -35,3 +33,4 @@ function checkAndUseHuman(value) {
     assertHuman(value);
     const name = value.name; // valueはここからHuman型になる
 }
+export {};

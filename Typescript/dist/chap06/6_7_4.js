@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /*
 type FruitNumbers = {
     apple: number;
@@ -18,3 +16,4 @@ const numbers2 = {
     orange: ["orange", "orange", "orange"],
     strawberry: [],
 };
+export {};

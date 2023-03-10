@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const map = new Map();
 console.log(map instanceof Map);
 class RepeatArray extends Array {
@@ -15,3 +13,4 @@ const arr = new RepeatArray(1, 2);
 arr.push(3);
 const repeated = arr.repeat(3);
 console.log(repeated);
+export {};

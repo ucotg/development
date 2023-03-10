@@ -1,4 +1,3 @@
-"use strict";
 var __classPrivateFieldSet = (this && this.__classPrivateFieldSet) || function (receiver, state, value, kind, f) {
     if (kind === "m") throw new TypeError("Private method is not writable");
     if (kind === "a" && !f) throw new TypeError("Private accessor was defined without a setter");
@@ -11,7 +10,6 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _User_age;
-Object.defineProperty(exports, "__esModule", { value: true });
 class User {
     constructor(name, age) {
         _User_age.set(this, void 0);
@@ -31,3 +29,4 @@ const john = new User("John Smith", 15);
 const bob = new User("Bob", 40);
 const older = uhyo.filterOlder([john, bob]);
 console.log(older);
+export {};

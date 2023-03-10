@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class User {
     constructor(name, age) {
         this.name = name;
@@ -12,4 +10,5 @@ class User {
 const uhyo = new User("uhyo", 26);
 console.log(uhyo.name);
 console.log(uhyo.isAdult());
+export {};
 // console.log(uhyo.age); プロパティ 'age' はプライベートで、クラス 'User' 内でのみアクセスできます。

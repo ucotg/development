@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const tama = {
     species: "Felis silvestris catus",
     age: "永遠の17歳",
@@ -16,6 +14,7 @@ function useFunc(func) {
     const result = func("uhyo");
     console.log(result);
 }
+export {};
 // type MaybeFunc = ((str: string) => string) | string;
 // function useFunc2(func:MaybeFunc) {
 //     const result = func("uhyo");

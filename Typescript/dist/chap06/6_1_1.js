@@ -1,11 +1,10 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const tama = {
     species: "Felis silvestris catus",
 };
 const uhyo = {
     name: "uhyo",
 };
+export {};
 // const book: User = {
 //   title: "Software Design",
 // };

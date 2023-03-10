@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const repeat = function (element, length) {
     const result = [];
     for (let i = 0; i < length; i++) {
@@ -36,4 +34,5 @@ const repeat3 = (element, length) => {
     return result;
 };
 console.log(repeat3({ name: "uhyo", age: 26 }, 3));
+export {};
 // console.log(repeat3<string>("a", 5));

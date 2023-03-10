@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function sabayomi(age) {
     if (age >= 30) {
         const lie = age - 10;
@@ -27,3 +25,4 @@ function sabayomi2(age) {
     return lie;
 }
 console.log(sabayomi2(30), sabayomi2(16));
+export {};

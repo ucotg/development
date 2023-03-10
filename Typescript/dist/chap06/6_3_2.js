@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 console.log(typeof "uhyo");
 console.log(typeof 26);
 console.log(typeof {});
@@ -14,3 +12,4 @@ function formatNumberOrString(value) {
 }
 console.log(formatNumberOrString(3.14));
 console.log(formatNumberOrString("uhyo"));
+export {};

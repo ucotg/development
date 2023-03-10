@@ -1,4 +1,3 @@
-"use strict";
 var __classPrivateFieldSet = (this && this.__classPrivateFieldSet) || function (receiver, state, value, kind, f) {
     if (kind === "m") throw new TypeError("Private method is not writable");
     if (kind === "a" && !f) throw new TypeError("Private accessor was defined without a setter");
@@ -6,7 +5,6 @@ var __classPrivateFieldSet = (this && this.__classPrivateFieldSet) || function (
     return (kind === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value)), value;
 };
 var _User2_age;
-Object.defineProperty(exports, "__esModule", { value: true });
 class User {
     constructor() {
         this.name = "";
@@ -32,3 +30,4 @@ class User2 {
 }
 _User2_age = new WeakMap();
 const uhyo2 = new User2("uhyo", 26, "追加データ");
+export {};

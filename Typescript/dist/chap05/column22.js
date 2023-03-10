@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const apple = {
     name: "りんご",
     price: 200,
@@ -15,3 +13,4 @@ const orange = {
 };
 console.log(apple, orange);
 console.log(Item);
+export {};

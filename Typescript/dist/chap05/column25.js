@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 try {
     throwNull();
 }
@@ -36,3 +34,4 @@ function sum(nums) {
     }
     return result;
 }
+export {};

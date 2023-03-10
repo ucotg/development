@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let key = "name";
 key = "age";
 const mmConversionTable = {
@@ -18,3 +16,4 @@ function convertUnits(value, unit) {
 }
 console.log(convertUnits(5600, "m"));
 console.log(convertUnits(30000, "cm"));
+export {};

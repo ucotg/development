@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function getUserName1(user) {
     if (user.tag === "human") {
         return user.name;
@@ -18,3 +16,4 @@ function getUserName2(user) {
             return `CPU ${user.name}`;
     }
 }
+export {};

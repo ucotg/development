@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function signNumber(type) {
     return type === "plus" ? 1 : -1;
 }
@@ -23,3 +21,4 @@ function numberWithSign2(num, type) {
 function numberWithSign3(num, type) {
     return type === "none" ? 0 : num * signNumber(type);
 }
+export {};

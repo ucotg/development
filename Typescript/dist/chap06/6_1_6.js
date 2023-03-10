@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function useMaybeHuman(human) {
     const age = human?.age;
     console.log(age);
@@ -12,3 +10,4 @@ function checkForAdultUser(user) {
         // showSpecialContents(user);
     }
 }
+export {};

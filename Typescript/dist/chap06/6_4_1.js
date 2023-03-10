@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function setAge(human, age) {
     return {
         ...human,
@@ -13,3 +11,4 @@ const uhyo = {
 };
 const uhyo2 = setAge(uhyo, 27n);
 console.log(uhyo2);
+export {};

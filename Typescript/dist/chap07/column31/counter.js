@@ -1,12 +1,7 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.getValue = exports.increment = exports.value = void 0;
-exports.value = 0;
-function increment() {
-    return ++exports.value;
+export let value = 0;
+export function increment() {
+    return ++value;
 }
-exports.increment = increment;
-function getValue() {
-    return exports.value;
+export function getValue() {
+    return value;
 }
-exports.getValue = getValue;

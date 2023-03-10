@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const fromAge = (age) => ({
     name: "John Smith",
     age,
@@ -10,3 +8,4 @@ console.log(obj);
 const h = (name) => ({ name });
 const g = h;
 console.log(g("unko"));
+export {};

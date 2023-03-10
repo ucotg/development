@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function makeTriple(x, y, z) {
     return [x, y, z];
 }
@@ -11,3 +9,4 @@ function double(func) {
 }
 const plus2 = double((x) => x + 1);
 console.log(plus2(10));
+export {};

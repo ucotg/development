@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const r = /ab+c/;
 console.log(r.test("abbbbbc"));
 console.log(r.test("Hello, abc world!"));
@@ -25,3 +23,4 @@ const result3 = "Hello, abbbbbbc world! abc".match(/a(b+)c/g);
 if (result3 != null) {
     console.log(result3);
 }
+export {};

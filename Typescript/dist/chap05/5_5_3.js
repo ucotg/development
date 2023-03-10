@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // function getAverage(nums: number[]) {
 //   if (nums.length === 0) {
 //     return undefined;
@@ -25,3 +23,4 @@ try {
 catch (err) {
     console.log(err);
 }
+export {};

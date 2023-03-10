@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const uhyo1 = "uhyo"; // "uhyo"型
 let uhyo2 = "uhyo"; // string型
 // uhyo2 = 3.13; エラー
@@ -25,5 +23,6 @@ function signNumber(type) {
 function useNumber(num) {
     return num > 0 ? "plus" : num < 0 ? "minus" : "zero";
 }
+export {};
 // signNumber("uhyo"); 型 '"uhyo"' の引数を型 '"plus" | "minus"' のパラメーターに割り当てることはできません。
 // useNumber("uhyo"); 型 'string' の引数を型 'number' のパラメーターに割り当てることはできません。

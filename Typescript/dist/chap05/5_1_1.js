@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class User {
     constructor() {
         this.name = "";
@@ -16,3 +14,4 @@ const obj = {
 };
 const uhyo2 = new obj.cl();
 console.log(uhyo2.age);
+export {};
